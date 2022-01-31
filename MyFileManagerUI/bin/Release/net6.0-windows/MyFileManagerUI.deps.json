@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyFileManagerUI/1.0.0": {
+        "dependencies": {
+          "MyFileManagerFunction": "1.0.0"
+        },
+        "runtime": {
+          "MyFileManagerUI.dll": {}
+        }
+      },
+      "MyFileManagerFunction/1.0.0": {
+        "runtime": {
+          "MyFileManagerFunction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyFileManagerUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFileManagerFunction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
